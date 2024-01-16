@@ -6,3 +6,4 @@ if author_name in books_dict:
     print(f"Books by {author_name} include: {books_list}")
 else:
     print(f"Author {author_name} cannot be found in the Dictionary")
+    None

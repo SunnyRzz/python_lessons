@@ -67,9 +67,31 @@ else:
         print("You have failed ")
 
 # Task 3
-        
+
 result = int(input("Please enter your mark between 1 and 100: "))
-while result > 100 or result < 1:
+level = int(input("Please input your level: "))
+
+if result > 100 or result < 1:
     print(f"Sorry the mark you entered - {result} - is not in the range of 1 to 100, please re-enter")
-    result = int(input("Please re-enter your mark between 1 and 100: "))
+elif level == 1:
+    if result >= 71:
+        print("You have been graded with a Distinction")
+    elif result >= 61:
+        print("You have been graded a Merit")
+    elif result >= 50:
+        print("You have been graded a Pass")
+    else:
+        print("You have failed ")
+elif level == 2:
+    if result >= 66:
+        print("You have been graded with a Distinction")
+    elif result >= 51:
+        print("You have been graded a Merit")
+    elif result >= 40:
+        print("You have been graded a Pass")
+    else:
+        print("You have failed ")
+else:
+    print(f"Sorry the Level you entered - {level} - is not in the range of 1 or 2, please re-enter")
+
   

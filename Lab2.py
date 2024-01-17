@@ -94,4 +94,31 @@ elif level == 2:
 else:
     print(f"Sorry the Level you entered - {level} - is not in the range of 1 or 2, please re-enter")
 
-  
+# Task 4 Pythagoras  
+    
+print("""Pythagoras' Calculator  
+\n 1.	Find the length of A given B and C  
+\n 2.	Find the length of B given A and C 
+\n 3.	Find the length of C given A and B 
+""")
+
+option=int(input("Please input the number of the calculation you wish to complete: "))
+
+if option == 1:
+    sideb= float(input("Please enter the length of B: "))
+    sidec= float(input("Please enter the length of C: "))
+    sidea= (sidec**2 / sideb**2)**0.5
+    print(f"The length of Side A is: {sidea}")
+elif option == 2:
+    sidea= float(input("Please enter the length of A: "))
+    sidec= float(input("Please enter the length of C: "))
+    sideb= (sidec**2 / sidea**2)**0.5
+    print(f"The length of Side B is: {sideb}")
+elif option == 3:
+    sidea= float(input("Please enter the length of A: "))
+    sideb= float(input("Please enter the length of B: "))
+    sidec= sidea**2 / sideb**2
+    print(f"The length of Side C is: {sidec}")
+else:
+    print(f"Sorry the input {option} is not in the range 1-3 please re-enter: ")
+

@@ -9,6 +9,11 @@
 
 ## using for
 
+# for x in range(1,101):
+#     y = x**2
+#     if y >2000:
+#         break
+#     print(x, " squared = ", y)
 
 # #Task 2 Factorial using while
 # integervalue = int(input("Please input an integer: "))    
@@ -18,8 +23,13 @@
 #     integervalue -= 1
 # print("factorial: ", factorial)
 
-
 ##using for
+
+# integervalue = int(input("Please input an integer: "))    
+# factorial = 1
+# for i in range(1,integervalue+1):
+#     factorial *= i
+# print("factorial: ", factorial)
 
 
 # #Task 3 Investment

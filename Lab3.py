@@ -32,18 +32,18 @@
 # print("factorial: ", factorial)
 
 
-# #Task 3 Investment
-# initial_investment=float(input("Please enter your initial investment £"))
-# target_value= float(input("Please enter your target value £"))
-# interest_rate= int(input("Please enter your Annual interest rate %"))
-# interest_rate_calculated= 1 +(interest_rate/100)
-# counter=0
-# current_value= initial_investment
+#Task 3 Investment
+initial_investment=float(input("Please enter your initial investment £"))
+target_value= float(input("Please enter your target value £"))
+interest_rate= int(input("Please enter your Annual interest rate %"))
+interest_rate_calculated= 1 +(interest_rate/100)
+counter=0
+current_value= initial_investment
 
-# while current_value <= target_value:
-#     current_value *= interest_rate_calculated
-#     counter += 1
-# print(f"It will take you {counter} years to reach the target value of £{target_value} with an initial investment of £{initial_investment} at an annual interest rate of {interest_rate}%")
+while current_value <= target_value:
+    current_value *= interest_rate_calculated
+    counter += 1
+print(f"It will take you {counter} years to reach the target value of £{target_value} with an initial investment of £{initial_investment} at an annual interest rate of {interest_rate}%")
 
 
 # #Task 4 

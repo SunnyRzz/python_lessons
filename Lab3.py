@@ -78,7 +78,7 @@
 #     print("None")
     
 
-# #Task 5 (3) Count Vowels
+# #Task 5 (3) Count Vowels when
 # word = (input("Please enter a word: ")).lower()
 # num_of_vowels=0
 # characters = len(word)
@@ -89,6 +89,14 @@
 #         num_of_vowels += 1
 #     counter3 += 1
 # print(f"There are {num_of_vowels} vowels in the word {word}")
+
+# #Lab 4 part 2 Task 1 (3) Count Vowels for
+word = (input("Please enter a word: ")).lower()
+num_of_vowels=0
+for i in word:
+    if  i in ("a","e","i","o","u"):
+        num_of_vowels += 1
+print(f"There are {num_of_vowels} vowels in the word {word}")
 
 
 # # Task 6 (5) Exam Average

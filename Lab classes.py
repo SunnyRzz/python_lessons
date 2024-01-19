@@ -63,7 +63,7 @@ class Owl(Bird):
         print("Hoot! Hoot!")
 
     def __str__(self):
-        return f"{self.name}, {self.breed}"
+        return super().__str__()
 
 class Dodo(Bird):
     def __init__(self,name,breed,extinct):

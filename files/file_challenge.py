@@ -4,7 +4,7 @@ teams=["Manchester united", "Arsenal","Man City", "Chelsea", "Liverpool"]
 
 for x in teams:
     newline = x + " FC" + "\n"
-    print(newline)
+    #print(newline)
     file.write(newline)
 
 file.close
